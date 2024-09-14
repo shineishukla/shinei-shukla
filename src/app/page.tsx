@@ -20,13 +20,15 @@ const Home: React.FC = () => {
 
 const ImageSection = () => (
   <div className="md:col-span-1 md:row-span-2 flex justify-center items-center bg-gradient-to-tr from-pink-100 to-purple-200 rounded-xl p-3">
-    <Image
-      src="/photo.jpg"
-      alt="Shinei Shukla"
-      width={535}
-      height={647}
-      className="w-full h-auto rounded-xl object-cover shadow-sm"
-    />
+    <div className="w-full max-w-[250px] sm:max-w-[300px] md:max-w-full">
+      <Image
+        src="/ph.jpeg"
+        alt="Shinei Shukla"
+        width={535}
+        height={647}
+        className="w-full h-auto rounded-xl object-cover shadow-sm"
+      />
+    </div>
   </div>
 );
 
